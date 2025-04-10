@@ -1,11 +1,9 @@
 name : Helloworld
 
 on : [push]
-
-jobs: say_hello
-
+jobs:
+  say_hello:
 runs-on: ubuntu-latest
-
 steps:
   - name: say hello
     run : echo "Hi from git hub actions"
